@@ -49,10 +49,6 @@
           "class": "DepictionTableTextView",
           "title": "Desarrollador",
           "text": "Noctra"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "Es una adaptación visual propia. No incorpora los modelos ni los servicios de la Siri nueva de Apple."
         }
       ]
     },

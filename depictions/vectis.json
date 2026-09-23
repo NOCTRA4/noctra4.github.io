@@ -56,7 +56,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Necesita **CCSupport** (`com.opa334.ccsupport`) para su control del Centro de Control. Si Sileo dice que no lo encuentra, añade el repositorio de opa334 y vuelve a intentarlo.\n\nEs una recreación propia de la función; no incorpora código de Apple."
+          "markdown": "Necesita **CCSupport** (`com.opa334.ccsupport`) para su control del Centro de Control. Si Sileo dice que no lo encuentra, añade el repositorio de opa334 y vuelve a intentarlo."
         }
       ]
     },
