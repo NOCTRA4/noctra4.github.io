@@ -10,15 +10,15 @@ Conflicts: com.seb.carillon
 Replaces: com.seb.carillon
 Provides: com.seb.carillon
 Filename: debs/com.noctra.carillon_1.2.2_iphoneos-arm64.deb
-Size: 149130
-MD5sum: 3ea87d8fa7ac5b01bd831cdcd7b675f5
-SHA1: b3dba8feb866ee8330a33cab486d167aa4ed86bf
-SHA256: 4c7c30ebe1147f97eadcbef4c02cad4f0f9282ebc73553dee8427c71b98eaba1
+Size: 149136
+MD5sum: c6b13be3bcd76466c67ef75f9e752b78
+SHA1: 3cbf0814cda11ac540cdb86507f3cd421b9d39d5
+SHA256: 3d723cae60d8333e37c134afb8e4841694924780d359e5f5150377d562d066b2
 Section: Tweaks
 Description: Los sonidos y los hapticos de iOS 27, para iOS 16.
  Hyaline es el vidrio y Vitral el roseton; Carillon son las campanas de la misma torre. Sustituye lo que suena y lo que se siente, sin tocar nada del sistema: intercepta la apertura del archivo y contesta con el de iOS 27. Los 341 efectos de interfaz, los 32 tonos de llamada Encore, los 11 tonos de alerta que estrena iOS 27 y las 96 coreografias de vibracion que van con ellos. Se instala y ya suena distinto; lo que haya que tocar esta en Ajustes, en su propio panel. Donde iOS 16 tiene lo suyo, se le deja lo suyo: Carillon solo anade. Los archivos viven en su propio paquete, com.noctra.carillon.sonidos, que se instala una vez; este es solo la fontaneria.
 Author: Noctra
-Icon: https://noctra4.github.io/assets/carillon-icon.png
+Icon: https://noctra4.github.io/assets/carillon-icon-v2.png
 Name: Carillon
 SileoDepiction: https://noctra4.github.io/depictions/carillon.json
 
@@ -33,16 +33,16 @@ Conflicts: com.seb.liquidunified, dylv.liquidass, dylv.blurless, com.yourhandle.
 Replaces: com.seb.liquidunified, dylv.liquidass, dylv.blurless, com.seb.hyaline
 Provides: com.seb.hyaline
 Filename: debs/com.noctra.hyaline_1.0.0~b92_iphoneos-arm64.deb
-Size: 3573174
-MD5sum: 412f958d5cde1ce11c369e1966ba22e9
-SHA1: 4f52f1ebe4faaad2bf167c41f2594f6d44a8e33c
-SHA256: e80d0b15f2254b059967b6c2b8c8a0feccb4ba2c90e1a3316633de6d8ee7644f
+Size: 3573180
+MD5sum: 7fce81c46cf80390e18caf924357d2ba
+SHA1: 46d197f1900756e5024f4cbb72f95fe165defa85
+SHA256: 9faca500204cd63c5dcaa3158d3a301fddc5a3cf62dac3f1a7edf70f96ccb032
 Section: Tweaks
 Description: El material Liquid Glass de iOS 26, llevado a iOS 14, 15 y 16.
  Refracción real, dispersión cromática y brillos especulares en el Dock, las carpetas, los widgets, la pantalla de bloqueo, el teclado, el Centro de Control y los controles de las apps, con un solo motor de render y ajuste independiente por superficie. Fork no comercial de Liquid (Gl)ass (dylv), CC BY-NC 4.0.
 Author: Noctra
-Header: https://noctra4.github.io/assets/hyaline-header.jpg
-Icon: https://noctra4.github.io/assets/hyaline-icon.png
+Header: https://noctra4.github.io/assets/hyaline-header-v2.jpg
+Icon: https://noctra4.github.io/assets/hyaline-icon-v2.png
 Name: Hyaline
 SileoDepiction: https://noctra4.github.io/depictions/hyaline.json
 
@@ -58,15 +58,15 @@ Replaces: com.seb.nacre
 Provides: com.seb.nacre
 Filename: debs/com.noctra.nacre_0.1.0~b6_iphoneos-arm64.deb
 Size: 432668
-MD5sum: 4be91113b934f26bea4b39cdeb9f8306
-SHA1: 6d882fc068f52104f3631c040ce269b12e20656b
-SHA256: 3e69b367c07a5c265fdcb3290aa74a890a07fef7aa119feb01945dadef581052
+MD5sum: 342a5e4a65f535e9c8b95237df731860
+SHA1: daac5d4ab209421efbd330adf4c47f239253aafe
+SHA256: 223e47071bc0deb20914846e92f2454aa2dd5265d2eada39230ec2b43d41abb7
 Section: Tweaks
 Priority: optional
 Description: Voice, in a new light. Apariencia renovada para Siri.
  Cristal anclado a la zona superior y borde multicolor sobre la Siri que ya tienes, sin sustituirla ni tocar lo que hace. La burbuja se abre y se cierra desde el notch con una sola mascara, y el borde responde a tu voz: convierte el nivel real del microfono en luz, sin abrir otro microfono ni grabar nada. Tres estilos, ajustes en vivo y respeto por Reducir movimiento. La refraccion la pone Hyaline si esta instalado; si no, usa el material nativo de respaldo.
 Author: Noctra
-Icon: https://noctra4.github.io/assets/nacre-icon.png
+Icon: https://noctra4.github.io/assets/nacre-icon-v2.png
 Name: Nacre
 SileoDepiction: https://noctra4.github.io/depictions/nacre.json
 
@@ -80,15 +80,15 @@ Conflicts: com.seb.vectis
 Replaces: com.seb.vectis
 Provides: com.seb.vectis
 Filename: debs/com.noctra.vectis_0.1.0~b24_iphoneos-arm64.deb
-Size: 109040
-MD5sum: c75f9e06b91c16ee18d6baee4c1f4f48
-SHA1: b223cda34ce193d12a552f137ced98da2d4cbfe7
-SHA256: 955d8c0abe9faeeef7051f8c14ec8cb98f6d7a3874101e09f727cf60407befec
+Size: 109044
+MD5sum: d4d8b888876b6d82236d94ccb07367fd
+SHA1: 0a6b5cc03a985a3cc422c2e5c33b5fefea64895a
+SHA256: a8a29f5dc1d8f0edd15f4ed15063887e91a60c4eb7dd2fb227a7638b871c3e36
 Section: Tweaks
 Description: Motion, made visible. Puntos persistentes que responden al movimiento.
  Puntos que se quedan en pantalla y siguen lo que el telefono siente: aceleracion, giro, inercia. Se activan a mano o solos, porque detectan cuando vas en un vehiculo. Dejan pasar los toques y los gestos, asi que no estorban a nada de lo que haya debajo. Apariencia configurable desde su propio panel en Ajustes, y los cambios se aplican sin reiniciar. Trae su propio control de Centro de Control para encenderlos y apagarlos de un toque, y se pausa solo si tienes activado Reducir movimiento.
 Author: Noctra
-Icon: https://noctra4.github.io/assets/vectis-icon.png
+Icon: https://noctra4.github.io/assets/vectis-icon-v2.png
 Name: Vectis
 SileoDepiction: https://noctra4.github.io/depictions/vectis.json
 
@@ -103,15 +103,15 @@ Conflicts: com.futur3sn0w.ccaster, com.seb.vitral
 Replaces: com.seb.vitral
 Provides: com.seb.vitral
 Filename: debs/com.noctra.vitral_0.9.35~f130_iphoneos-arm64.deb
-Size: 587560
-MD5sum: 32b5570414bd0029b3de0903444bcad8
-SHA1: ad6e0d5bc979daaf34c7de59e13262835bb0406c
-SHA256: ab5eef9ea82b0fb6ed0c7f2b3268dba1bd862e0dfa74bf7d692c8f580fa80017
+Size: 587564
+MD5sum: 7381a813fac48368c83bff92c8a9dd37
+SHA1: 93e5d407cf91be1f586fc861fd346e8d611e10f4
+SHA256: 4f871f9c1ec101089f4d86553edebda416ecf1e4d7aa04e36568851e2becae77
 Section: Tweaks
 Description: El Centro de Control de iOS 26, para iOS 16.
  Hyaline es el vidrio transparente; Vitral es el vidrio de color. Misma casa, mismo cristal, distinto oficio: pagina de cuatro columnas por ocho filas al estilo iOS 26, con la huella y la posicion de cada control decididas por Vitral, riel de hojas, y un modo de edicion como el de iOS 26 - mover, redimensionar con la burbuja de la esquina, quitar con la insignia menos y anadir desde un catalogo por categorias con todo lo que ofrece Ajustes. Incluye la medicion de solo lectura.
 Author: Noctra
-Icon: https://noctra4.github.io/assets/vitral-icon.png
+Icon: https://noctra4.github.io/assets/vitral-icon-v2.png
 Name: Vitral
 SileoDepiction: https://noctra4.github.io/depictions/vitral.json
 
