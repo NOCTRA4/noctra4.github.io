@@ -80,13 +80,13 @@ Conflicts: com.seb.vectis
 Replaces: com.seb.vectis
 Provides: com.seb.vectis
 Filename: debs/com.noctra.vectis_0.1.0~b24_iphoneos-arm64.deb
-Size: 109044
-MD5sum: d4d8b888876b6d82236d94ccb07367fd
-SHA1: 0a6b5cc03a985a3cc422c2e5c33b5fefea64895a
-SHA256: a8a29f5dc1d8f0edd15f4ed15063887e91a60c4eb7dd2fb227a7638b871c3e36
+Size: 109152
+MD5sum: 20e229f4be6df9b88a25d3b188db991f
+SHA1: 9c2b33cedbf9c9547b78f054d123a69af987fa49
+SHA256: 6f8fabb8e63193af2ee69c0dbfcec4b9f1e2384a3c3b70e40b13d98a8dfad1b6
 Section: Tweaks
-Description: Motion, made visible. Puntos persistentes que responden al movimiento.
- Puntos que se quedan en pantalla y siguen lo que el telefono siente: aceleracion, giro, inercia. Se activan a mano o solos, porque detectan cuando vas en un vehiculo. Dejan pasar los toques y los gestos, asi que no estorban a nada de lo que haya debajo. Apariencia configurable desde su propio panel en Ajustes, y los cambios se aplican sin reiniciar. Trae su propio control de Centro de Control para encenderlos y apagarlos de un toque, y se pausa solo si tienes activado Reducir movimiento.
+Description: Vehicle Motion Cues de iOS 18, para iOS 14, 15 y 16.
+ La funcion de accesibilidad que Apple hizo contra el mareo en el coche, traida a los iOS que no la tienen. Unos puntos en los bordes de la pantalla se mueven con lo que el telefono siente -aceleracion, frenada, curvas- para que tus ojos vean el mismo movimiento que tu oido interno esta notando. Ese desacuerdo entre los dos es lo que marea al leer en marcha, y esto lo cierra. Se encienden solos al detectar que vas en un vehiculo, o a mano desde su propio control en el Centro de Control. Dejan pasar los toques y los gestos, asi que no estorban a lo que estes haciendo. Apariencia configurable desde Ajustes, con los cambios en vivo, y se pausan si tienes activado Reducir movimiento.
 Author: Noctra
 Icon: https://noctra4.github.io/assets/vectis-icon-v2.png
 Name: Vectis

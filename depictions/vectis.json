@@ -9,15 +9,23 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Motion, made visible.**\n\nVectis pone en pantalla unos puntos que se quedan ahí y siguen lo que el teléfono siente: la aceleración, el giro, la inercia. No es una animación en bucle — es el movimiento real, leído de los sensores y dibujado."
+          "markdown": "**Motion, made visible.**\n\nVectis trae a iOS 14, 15 y 16 los **Vehicle Motion Cues** que Apple estrenó en iOS 18: la función de accesibilidad pensada para que puedas usar el teléfono en el coche sin marearte."
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Cómo se encienden"
+          "title": "Por qué funciona"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- **A mano**, desde su propio control en el Centro de Control.\n- **Solos**, cuando detecta que vas en un vehículo.\n\nY se pausan por su cuenta si tienes activado *Reducir movimiento*."
+          "markdown": "El mareo en marcha no lo causa el movimiento: lo causa el **desacuerdo**. Tu oído interno nota que el coche acelera, frena y gira; tus ojos, clavados en una pantalla quieta, no ven nada de eso. El cerebro recibe dos versiones distintas de la realidad y responde con náusea.\n\nVectis pone unos puntos en los bordes de la pantalla que se mueven con lo que el teléfono está sintiendo de verdad. Tus ojos vuelven a ver el mismo movimiento que tu oído ya notaba, y el desacuerdo se cierra."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Cuándo aparecen"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Solos**, cuando detecta que vas en un vehículo.\n- **A mano**, desde su propio control en el Centro de Control.\n\nY se pausan por su cuenta si tienes activado *Reducir movimiento*."
         },
         {
           "class": "DepictionHeaderView",
@@ -25,7 +33,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Los puntos dejan pasar los toques y los gestos: lo que haya debajo sigue respondiendo igual. La apariencia se configura desde su panel en Ajustes y los cambios se aplican en vivo, sin reiniciar."
+          "markdown": "Los puntos dejan pasar los toques y los gestos: puedes leer, escribir o desplazarte con normalidad mientras están ahí. La apariencia se ajusta desde su panel en Ajustes y los cambios se aplican en vivo, sin reiniciar."
         },
         {
           "class": "DepictionHeaderView",
@@ -48,7 +56,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Necesita **CCSupport** (`com.opa334.ccsupport`) para su control del Centro de Control. Si Sileo dice que no lo encuentra, añade el repositorio de opa334 y vuelve a intentarlo."
+          "markdown": "Necesita **CCSupport** (`com.opa334.ccsupport`) para su control del Centro de Control. Si Sileo dice que no lo encuentra, añade el repositorio de opa334 y vuelve a intentarlo.\n\nEs una recreación propia de la función; no incorpora código de Apple."
         }
       ]
     },
@@ -58,7 +66,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**0.1.0~b24**\n\nDetección automática de vehículos, control propio en el Centro de Control y panel de apariencia con cambios en vivo."
+          "markdown": "**0.1.0~b24**\n\nDetección automática de vehículo, control propio en el Centro de Control y panel de apariencia con cambios en vivo."
         }
       ]
     }
