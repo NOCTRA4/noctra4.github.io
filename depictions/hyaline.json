@@ -58,10 +58,6 @@
           "class": "DepictionTableTextView",
           "title": "Licencia",
           "text": "CC BY-NC 4.0"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "Fork no comercial de Liquid (Gl)ass (dylv), bajo CC BY-NC 4.0."
         }
       ]
     },
