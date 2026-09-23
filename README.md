@@ -9,6 +9,8 @@ Repositorio de tweaks para iOS 14 – 17.
 | **Hyaline** | El material Liquid Glass de iOS 26, en iOS 14–16 |
 | **Vitral** | El Centro de Control de iOS 26 |
 | **Carillón** | Los sonidos y hápticos de iOS 27, en iOS 15–17 |
+| **Vectis** | Puntos persistentes que responden al movimiento |
+| **Nacre** | Apariencia renovada para Siri |
 
 ## Cómo publicar una actualización
 

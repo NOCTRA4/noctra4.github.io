@@ -1,0 +1,66 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#4ECBA5",
+  "tabs": [
+    {
+      "tabname": "Detalles",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Motion, made visible.**\n\nVectis pone en pantalla unos puntos que se quedan ahí y siguen lo que el teléfono siente: la aceleración, el giro, la inercia. No es una animación en bucle — es el movimiento real, leído de los sensores y dibujado."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Cómo se encienden"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **A mano**, desde su propio control en el Centro de Control.\n- **Solos**, cuando detecta que vas en un vehículo.\n\nY se pausan por su cuenta si tienes activado *Reducir movimiento*."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Sin estorbar"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Los puntos dejan pasar los toques y los gestos: lo que haya debajo sigue respondiendo igual. La apariencia se configura desde su panel en Ajustes y los cambios se aplican en vivo, sin reiniciar."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibilidad"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS",
+          "text": "14 – 16"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Jailbreak",
+          "text": "Rootless"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Desarrollador",
+          "text": "Noctra"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Necesita **CCSupport** (`com.opa334.ccsupport`) para su control del Centro de Control. Si Sileo dice que no lo encuentra, añade el repositorio de opa334 y vuelve a intentarlo."
+        }
+      ]
+    },
+    {
+      "tabname": "Lista de Cambios",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**0.1.0~b24**\n\nDetección automática de vehículos, control propio en el Centro de Control y panel de apariencia con cambios en vivo."
+        }
+      ]
+    }
+  ]
+}

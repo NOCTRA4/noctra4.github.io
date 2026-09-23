@@ -46,6 +46,52 @@ Icon: https://noctra4.github.io/assets/hyaline-icon.png
 Name: Hyaline
 SileoDepiction: https://noctra4.github.io/depictions/hyaline.json
 
+Package: com.noctra.nacre
+Version: 0.1.0~b6
+Architecture: iphoneos-arm64
+Maintainer: Noctra
+Installed-Size: 894
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), firmware (<< 17.0)
+Recommends: com.noctra.hyaline
+Conflicts: com.seb.nacre
+Replaces: com.seb.nacre
+Provides: com.seb.nacre
+Filename: debs/com.noctra.nacre_0.1.0~b6_iphoneos-arm64.deb
+Size: 432668
+MD5sum: 4be91113b934f26bea4b39cdeb9f8306
+SHA1: 6d882fc068f52104f3631c040ce269b12e20656b
+SHA256: 3e69b367c07a5c265fdcb3290aa74a890a07fef7aa119feb01945dadef581052
+Section: Tweaks
+Priority: optional
+Description: Voice, in a new light. Apariencia renovada para Siri.
+ Cristal anclado a la zona superior y borde multicolor sobre la Siri que ya tienes, sin sustituirla ni tocar lo que hace. La burbuja se abre y se cierra desde el notch con una sola mascara, y el borde responde a tu voz: convierte el nivel real del microfono en luz, sin abrir otro microfono ni grabar nada. Tres estilos, ajustes en vivo y respeto por Reducir movimiento. La refraccion la pone Hyaline si esta instalado; si no, usa el material nativo de respaldo.
+Author: Noctra
+Icon: https://noctra4.github.io/assets/nacre-icon.png
+Name: Nacre
+SileoDepiction: https://noctra4.github.io/depictions/nacre.json
+
+Package: com.noctra.vectis
+Version: 0.1.0~b24
+Architecture: iphoneos-arm64
+Maintainer: Noctra
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport (>= 1.3.10), firmware (>= 14.0), firmware (<< 17.0)
+Recommends: com.noctra.hyaline
+Conflicts: com.seb.vectis
+Replaces: com.seb.vectis
+Provides: com.seb.vectis
+Filename: debs/com.noctra.vectis_0.1.0~b24_iphoneos-arm64.deb
+Size: 109040
+MD5sum: c75f9e06b91c16ee18d6baee4c1f4f48
+SHA1: b223cda34ce193d12a552f137ced98da2d4cbfe7
+SHA256: 955d8c0abe9faeeef7051f8c14ec8cb98f6d7a3874101e09f727cf60407befec
+Section: Tweaks
+Description: Motion, made visible. Puntos persistentes que responden al movimiento.
+ Puntos que se quedan en pantalla y siguen lo que el telefono siente: aceleracion, giro, inercia. Se activan a mano o solos, porque detectan cuando vas en un vehiculo. Dejan pasar los toques y los gestos, asi que no estorban a nada de lo que haya debajo. Apariencia configurable desde su propio panel en Ajustes, y los cambios se aplican sin reiniciar. Trae su propio control de Centro de Control para encenderlos y apagarlos de un toque, y se pausa solo si tienes activado Reducir movimiento.
+Author: Noctra
+Icon: https://noctra4.github.io/assets/vectis-icon.png
+Name: Vectis
+SileoDepiction: https://noctra4.github.io/depictions/vectis.json
+
 Package: com.noctra.vitral
 Version: 0.9.35~f130
 Architecture: iphoneos-arm64

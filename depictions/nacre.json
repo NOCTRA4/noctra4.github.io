@@ -1,0 +1,70 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#C9A0FF",
+  "tabs": [
+    {
+      "tabname": "Detalles",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Voice, in a new light.**\n\nNacre le pone otra cara a Siri: una burbuja de cristal anclada arriba, con un borde multicolor, montada **sobre la Siri que ya tienes**. No la sustituye ni cambia lo que hace — solo cómo se ve."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Responde a tu voz"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "El borde convierte el nivel real del micrófono en luz: sube con la voz, se apaga en el silencio, y conserva los picos breves entre fotogramas para que no se pierdan.\n\nNo abre otro micrófono ni graba audio — lee el nivel que Siri ya está entregando."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "La imagen"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Una sola máscara anima la silueta completa desde el notch: el vidrio y la luz se revelan juntos.\n- El reflejo usa curvas continuas, sin franjas ni costuras.\n- Texturas al doble de resolución por eje, dibujadas a la escala Retina del dispositivo.\n- Tres estilos, ajustes en vivo y respeto por *Reducir movimiento*."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Con Hyaline"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "La refracción la pone **Hyaline** si está instalado, y Nacre se adapta cuando cambias su material. Si no está, usa el material nativo de respaldo y sigue funcionando."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS",
+          "text": "14 – 16"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Jailbreak",
+          "text": "Rootless"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Desarrollador",
+          "text": "Noctra"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Es una adaptación visual propia. No incorpora los modelos ni los servicios de la Siri nueva de Apple."
+        }
+      ]
+    },
+    {
+      "tabname": "Lista de Cambios",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**0.1.0~b6**\n\nRespuesta a la voz recalibrada: el intervalo útil del micrófono se convierte ahora en una envolvente visible, en vez de quedarse casi apagado.\n\nApertura desde el notch con una sola máscara, reflejo con curvas continuas sin costuras, texturas al doble de resolución y fuera las sombras exteriores que dibujaban un segundo contorno."
+        }
+      ]
+    }
+  ]
+}
