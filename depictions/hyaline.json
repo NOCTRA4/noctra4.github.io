@@ -1,0 +1,79 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#7A5CFF",
+  "tabs": [
+    {
+      "tabname": "Detalles",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Hyaline** lleva el material Liquid Glass de iOS 26 a iOS 14, 15 y 16.\n\nNo es un desenfoque con transparencia: cada superficie refracta lo que tiene detrás, curva la luz en el borde, la separa en sus colores y responde con brillos especulares, como el vidrio real. Todo lo dibuja un único motor de render dentro del compositor del sistema, por eso el vidrio es coherente en cada pantalla y sigue en tiempo real lo que se mueve debajo."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Dónde aparece"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Pantalla de inicio:** Dock, carpetas, widgets, menús contextuales, alertas y la píldora de búsqueda.\n- **Pantalla de bloqueo:** notificaciones, banners, accesos rápidos, código de acceso, reloj y fecha.\n- **Biblioteca de apps y Spotlight.**\n- **Sistema:** teclado, Centro de Control, barra de pestañas, indicadores de volumen y AssistiveTouch.\n- **Apps y Ajustes:** interruptores, deslizadores, controles segmentados, la barra de Safari y la búsqueda de Ajustes al estilo de iOS 26."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Ajuste fino"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Cada superficie se configura por separado desde Ajustes: refracción, índice de refracción, grosor, desenfoque, dispersión cromática, brillo especular y un tinte propio para el modo claro y el oscuro. Los brillos pueden seguir el movimiento del iPhone, y la configuración completa se puede exportar e importar."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Información"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibilidad",
+          "text": "iOS 14 – 16"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Jailbreak",
+          "text": "Rootless"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Reemplaza a",
+          "text": "Liquid (Gl)ass, LiquidGlass"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Desarrollador",
+          "text": "Noctra"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Licencia",
+          "text": "CC BY-NC 4.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Fork no comercial de Liquid (Gl)ass (dylv), bajo CC BY-NC 4.0."
+        }
+      ]
+    },
+    {
+      "tabname": "Lista de Cambios",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "El historial completo de cambios de cada versión está en la app Ajustes, dentro de la página de Hyaline."
+        }
+      ]
+    }
+  ]
+}

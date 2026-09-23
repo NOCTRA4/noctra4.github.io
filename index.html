@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Noctra</title>
+<style>
+  :root { color-scheme: dark; --tinta:#e8eef4; --suave:#8ea0b0; --linea:#1d2b36; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:0 16px 72px; background:#0a1017; color:var(--tinta);
+         font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  .caja { max-width:640px; margin:0 auto; }
+  header { padding:72px 0 40px; display:flex; align-items:center; gap:20px; }
+  header img { width:76px; height:76px; border-radius:18px; }
+  h1 { margin:0; font-size:34px; letter-spacing:-.5px; }
+  header p { margin:4px 0 0; color:var(--suave); }
+  .url { display:block; margin:0 0 28px; padding:16px 18px; border:1px solid var(--linea);
+         border-radius:14px; background:#0e1720; font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+         font-size:15px; word-break:break-all; color:#9fd8ff; }
+  .boton { display:inline-block; padding:13px 22px; border-radius:12px; background:#1d5f8a;
+           color:#fff; text-decoration:none; font-weight:600; margin:0 8px 10px 0; }
+  .boton.sec { background:transparent; border:1px solid var(--linea); color:var(--tinta); }
+  article { border-top:1px solid var(--linea); padding:26px 0; }
+  article h2 { margin:0 0 6px; font-size:20px; }
+  article p { margin:0; color:var(--suave); }
+  footer { border-top:1px solid var(--linea); padding-top:22px; color:var(--suave); font-size:14px; }
+  a { color:#7fc3f0; }
+</style>
+<div class="caja">
+  <header>
+    <img src="CydiaIcon.png" alt="">
+    <div><h1>Noctra</h1><p>Tweaks para iOS 14 &ndash; 17</p></div>
+  </header>
+
+  <p>Añade este repositorio en Sileo, Zebra o Cydia:</p>
+  <code class="url">https://noctra4.github.io/</code>
+  <a class="boton" href="sileo://source/noctra4.github.io/">Añadir a Sileo</a>
+  <a class="boton sec" href="zbra://sources/add/noctra4.github.io/">Zebra</a>
+
+  <article>
+    <h2>Hyaline</h2>
+    <p>El material Liquid Glass de iOS 26, llevado a iOS 14, 15 y 16. Refracción real,
+       dispersión cromática y brillos especulares, con un solo motor de render y ajuste
+       independiente por superficie.</p>
+  </article>
+  <article>
+    <h2>Vitral</h2>
+    <p>El Centro de Control de iOS 26. Cada control es una pieza de vidrio con su propio
+       grosor y su propio borde, sobre el mismo motor que Hyaline.</p>
+  </article>
+  <article>
+    <h2>Carillón</h2>
+    <p>Todo lo que suena y lo que se siente en iOS 27, en iOS 15, 16 y 17. No toca nada
+       del sistema: intercepta la apertura del archivo y contesta con el de iOS 27.</p>
+  </article>
+
+  <footer>
+    <p>Noctra &middot; proyecto no comercial. Cada paquete lleva su propia licencia.</p>
+  </footer>
+</div>

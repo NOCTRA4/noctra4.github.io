@@ -1,0 +1,71 @@
+Package: com.noctra.carillon
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: Noctra
+Installed-Size: 668
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 17.0)
+Recommends: com.noctra.hyaline, com.noctra.vitral
+Suggests: com.noctra.carillon.sonidos (>= 1.0.0)
+Conflicts: com.seb.carillon
+Replaces: com.seb.carillon
+Provides: com.seb.carillon
+Filename: debs/com.noctra.carillon_1.2.2_iphoneos-arm64.deb
+Size: 149130
+MD5sum: 3ea87d8fa7ac5b01bd831cdcd7b675f5
+SHA1: b3dba8feb866ee8330a33cab486d167aa4ed86bf
+SHA256: 4c7c30ebe1147f97eadcbef4c02cad4f0f9282ebc73553dee8427c71b98eaba1
+Section: Tweaks
+Description: Los sonidos y los hapticos de iOS 27, para iOS 16.
+ Hyaline es el vidrio y Vitral el roseton; Carillon son las campanas de la misma torre. Sustituye lo que suena y lo que se siente, sin tocar nada del sistema: intercepta la apertura del archivo y contesta con el de iOS 27. Los 341 efectos de interfaz, los 32 tonos de llamada Encore, los 11 tonos de alerta que estrena iOS 27 y las 96 coreografias de vibracion que van con ellos. Se instala y ya suena distinto; lo que haya que tocar esta en Ajustes, en su propio panel. Donde iOS 16 tiene lo suyo, se le deja lo suyo: Carillon solo anade. Los archivos viven en su propio paquete, com.noctra.carillon.sonidos, que se instala una vez; este es solo la fontaneria.
+Author: Noctra
+Icon: https://noctra4.github.io/assets/carillon-icon.png
+Name: Carillon
+SileoDepiction: https://noctra4.github.io/depictions/carillon.json
+
+Package: com.noctra.hyaline
+Version: 1.0.0~b92
+Architecture: iphoneos-arm64
+Maintainer: Noctra
+Installed-Size: 9288
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Recommends: com.opa334.altlist
+Conflicts: com.seb.liquidunified, dylv.liquidass, dylv.blurless, com.yourhandle.liquidglass, com.seb.hyaline
+Replaces: com.seb.liquidunified, dylv.liquidass, dylv.blurless, com.seb.hyaline
+Provides: com.seb.hyaline
+Filename: debs/com.noctra.hyaline_1.0.0~b92_iphoneos-arm64.deb
+Size: 3573174
+MD5sum: 412f958d5cde1ce11c369e1966ba22e9
+SHA1: 4f52f1ebe4faaad2bf167c41f2594f6d44a8e33c
+SHA256: e80d0b15f2254b059967b6c2b8c8a0feccb4ba2c90e1a3316633de6d8ee7644f
+Section: Tweaks
+Description: El material Liquid Glass de iOS 26, llevado a iOS 14, 15 y 16.
+ Refracción real, dispersión cromática y brillos especulares en el Dock, las carpetas, los widgets, la pantalla de bloqueo, el teclado, el Centro de Control y los controles de las apps, con un solo motor de render y ajuste independiente por superficie. Fork no comercial de Liquid (Gl)ass (dylv), CC BY-NC 4.0.
+Author: Noctra
+Header: https://noctra4.github.io/assets/hyaline-header.jpg
+Icon: https://noctra4.github.io/assets/hyaline-icon.png
+Name: Hyaline
+SileoDepiction: https://noctra4.github.io/depictions/hyaline.json
+
+Package: com.noctra.vitral
+Version: 0.9.35~f130
+Architecture: iphoneos-arm64
+Maintainer: Noctra
+Installed-Size: 1352
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 17.0)
+Recommends: com.noctra.hyaline
+Conflicts: com.futur3sn0w.ccaster, com.seb.vitral
+Replaces: com.seb.vitral
+Provides: com.seb.vitral
+Filename: debs/com.noctra.vitral_0.9.35~f130_iphoneos-arm64.deb
+Size: 587560
+MD5sum: 32b5570414bd0029b3de0903444bcad8
+SHA1: ad6e0d5bc979daaf34c7de59e13262835bb0406c
+SHA256: ab5eef9ea82b0fb6ed0c7f2b3268dba1bd862e0dfa74bf7d692c8f580fa80017
+Section: Tweaks
+Description: El Centro de Control de iOS 26, para iOS 16.
+ Hyaline es el vidrio transparente; Vitral es el vidrio de color. Misma casa, mismo cristal, distinto oficio: pagina de cuatro columnas por ocho filas al estilo iOS 26, con la huella y la posicion de cada control decididas por Vitral, riel de hojas, y un modo de edicion como el de iOS 26 - mover, redimensionar con la burbuja de la esquina, quitar con la insignia menos y anadir desde un catalogo por categorias con todo lo que ofrece Ajustes. Incluye la medicion de solo lectura.
+Author: Noctra
+Icon: https://noctra4.github.io/assets/vitral-icon.png
+Name: Vitral
+SileoDepiction: https://noctra4.github.io/depictions/vitral.json
+

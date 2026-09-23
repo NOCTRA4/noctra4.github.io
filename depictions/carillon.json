@@ -1,0 +1,41 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#C98A2B",
+  "tabs": [
+    {
+      "tabname": "Detalles",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Carillón** es el sonido y el tacto de iOS 27, en iOS 15, 16 y 17.\n\nHyaline es el vidrio y Vitral el rosetón; Carillón son las campanas de la misma torre. No toca nada del sistema: intercepta la apertura del archivo y contesta con el de iOS 27. Al apagarlo vuelve iOS tal como era, en el momento y sin respingar."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Qué incluye"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Los 341 efectos de interfaz.\n- Los tonos de llamada Encore y los 11 tonos de alerta que estrena iOS 27.\n- Las 96 coreografías de vibración y los patrones del motor Taptic que van con ellos."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Los archivos van aparte"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Este paquete es sólo la fontanería y pesa unos kilobytes, así que actualizarlo es instantáneo. Los sonidos se instalan una vez, por separado, y no vuelven a cambiar."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibilidad"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "iOS 15 a 17, rootless."
+        }
+      ]
+    }
+  ]
+}

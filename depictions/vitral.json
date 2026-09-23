@@ -1,0 +1,33 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#F0B429",
+  "tabs": [
+    {
+      "tabname": "Detalles",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Vitral** trae el Centro de Control de iOS 26 a iOS 14, 15 y 16.\n\nLos controles dejan de ser losas planas: cada uno es una pieza de vidrio con su propio grosor, su borde y su refracción, montada sobre el mismo motor de render que usa Hyaline. Hyaline es el cristal y Vitral el rosetón — la misma luz, ordenada en piezas."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Qué cambia"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Módulos y controles con material real, no una imagen de vidrio.\n- Cada superficie se ajusta por separado: grosor, refracción, tinte, desenfoque.\n- Su propio panel en Ajustes, sin depender de Hyaline para configurarse."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibilidad"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "iOS 14 a 16, rootless y rootful. No se lleva con CCAster: instalar uno desinstala el otro."
+        }
+      ]
+    }
+  ]
+}
