@@ -46,6 +46,30 @@ Icon: https://noctra4.github.io/assets/hyaline-icon-v2.png
 Name: Hyaline
 SileoDepiction: https://noctra4.github.io/depictions/hyaline.json
 
+Package: com.noctra.hyaline
+Version: 1.0.0~b93
+Architecture: iphoneos-arm64
+Maintainer: Noctra
+Installed-Size: 9292
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Recommends: com.opa334.altlist
+Conflicts: com.seb.liquidunified, dylv.liquidass, dylv.blurless, com.yourhandle.liquidglass, com.seb.hyaline
+Replaces: com.seb.liquidunified, dylv.liquidass, dylv.blurless, com.seb.hyaline
+Provides: com.seb.hyaline
+Filename: debs/com.noctra.hyaline_1.0.0~b93_iphoneos-arm64.deb
+Size: 3570120
+MD5sum: 4a96715c0f83f712dc4b5f84f996412d
+SHA1: b15db761adac056c6db4244fca7b33c1fa83848d
+SHA256: 29a10a8db060786fff48a91c790986ed7416bfc8815d49f00b7424de3be558b4
+Section: Tweaks
+Description: El material Liquid Glass de iOS 26, llevado a iOS 14, 15 y 16.
+ Refracción real, dispersión cromática y brillos especulares en el Dock, las carpetas, los widgets, la pantalla de bloqueo, el teclado, el Centro de Control y los controles de las apps, con un solo motor de render y ajuste independiente por superficie.
+Author: Noctra
+Header: https://noctra4.github.io/assets/hyaline-header.jpg
+Icon: https://noctra4.github.io/assets/hyaline-icon.png
+Name: Hyaline
+SileoDepiction: https://noctra4.github.io/depictions/hyaline.json
+
 Package: com.noctra.nacre
 Version: 0.1.0~b6
 Architecture: iphoneos-arm64
