@@ -1,0 +1,49 @@
+# Reindexa el repo cada vez que entra o cambia un .deb.
+#
+# Esto es lo que hace que publicar sea "soltar el archivo y ya": no hay que
+# generar el índice a mano ni acordarse de comprimirlo. Al empujar cualquier
+# cosa dentro de debs/, esta Action reconstruye Packages, lo comprime en los
+# tres formatos que entienden Sileo, Zebra y Cydia, y lo vuelve a subir.
+name: Indexar el repo
+
+on:
+  push:
+    paths: ["debs/**"]
+  workflow_dispatch:      # y a mano desde la pestaña Actions, por si acaso
+
+permissions:
+  contents: write
+
+jobs:
+  indexar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Herramientas de empaquetado
+        run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2 zstd
+
+      - name: Generar el índice
+        run: |
+          # --multiversion deja convivir varias versiones del mismo paquete,
+          # que es lo que permite que alguien instale una anterior si la nueva
+          # le rompe algo.
+          dpkg-scanpackages --multiversion debs > Packages
+          # dpkg-scanpackages pasa a minúsculas los campos que no conoce, y
+          # deja «Sileodepiction». Sileo espera «SileoDepiction» tal cual, así
+          # que se le devuelve su forma antes de comprimir.
+          sed -i 's/^Sileodepiction:/SileoDepiction:/' Packages
+          bzip2  -kf9 Packages
+          gzip   -kf9 Packages
+          zstd   -qf19 Packages -o Packages.zst
+          echo "--- índice generado ---"
+          grep -c '^Package:' Packages
+
+      - name: Publicar
+        run: |
+          git config user.name  "Noctra (indexador)"
+          git config user.email "noctra@users.noreply.github.com"
+          git add Packages Packages.bz2 Packages.gz Packages.zst
+          # Si el índice no cambió, no se crea un commit vacío.
+          git diff --staged --quiet || git commit -m "Reindexar el repo"
+          git push
